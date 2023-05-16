@@ -9,6 +9,11 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {appDir: true},
   webpack: (config, options) => {
+    config.experiments = {
+      asyncWebAssembly: true,
+      layers: true,
+    };
+
     config.module.rules.push({
       test: /\.svg$/,
       use: ['@svgr/webpack'],

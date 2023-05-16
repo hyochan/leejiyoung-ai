@@ -24,6 +24,7 @@
     "@primer/octicons-react": "^19.1.0",
     "@prisma/client": "^4.14.0",
     "axios": "^1.4.0",
+    "langchain": "^0.0.75",
     "negotiator": "^0.6.3",
     "next": "v13.4.2",
     "next-auth": "^4.22.1",

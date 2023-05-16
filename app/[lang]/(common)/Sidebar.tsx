@@ -18,6 +18,10 @@ export default function Sidebar({t, lang}: Props): ReactElement {
   const pathname = usePathname();
   const navLinks: NavLink[] = [
     {
+      name: 'HumanChatMessage',
+      path: '/human-chat-message',
+    },
+    {
       name: t.users,
       path: '/users',
     },
