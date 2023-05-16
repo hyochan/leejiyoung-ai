@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "title": "Prisma Nextjs RSC",
+    "users": "Users",
+    "posts": "Posts",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "github": "Github"
+  },
+  "langs": {
+    "en": "English",
+    "ko": "Korean"
+  },
+  "common": {
+    "notAuthorized": "Not authorized",
+    "notFound": "Not found",
+    "badRequest": "Bad request",
+    "unknownError": "Unknown error",
+    "missingParams": "Missing parameter",
+    "notValidEmail": "Not a valid email address"
+  },
+  "index": {
+    "worksNormally": "Works normally"
+  },
+  "home": {
+    "title": "Home"
+  },
+  "signIn": {
+    "signIn": "Sign in"
+  },
+  "users": {
+    "title": "Users"
+  },
+  "posts": {
+    "title": "Posts"
+  }
+}

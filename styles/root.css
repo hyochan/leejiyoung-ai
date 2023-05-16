@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'doobooui';
+  src: url('/fonts/doobooui.ttf?ixpxfq') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+
+    /*
+     * for Internet Explorer, Edge
+       https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/
+    */
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    scrollbar-width: none; /* for Firefox */
+
+    display: flex;
+  }
+
+  body {
+    line-height: 1.4;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  div {
+    text-align: left;
+
+    display: flex;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+
+  a:link {
+    color: white;
+  }
+
+  a:visited {
+    color: hotpink;
+  }
+
+  a:hover {
+    color: antiquewhite;
+  }
+
+  a:active {
+    color: white;
+  }
+
+  @media (prefers-color-scheme: light) {
+    body {
+      background: rgb(243, 245, 253);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: rgb(28, 38, 54);
+    }
+  }
+}
+
+@layer components {
+  html,
+  body {
+    overflow-x: hidden;
+
+    display: flex;
+  }
+
+  /* search input - Internet Explorer */
+  input[type='search']::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  input[type='search']::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  /* search input - Chrome */
+  input[type='search']::-webkit-search-decoration,
+  input[type='search']::-webkit-search-cancel-button,
+  input[type='search']::-webkit-search-results-button,
+  input[type='search']::-webkit-search-results-decoration {
+    display: none;
+  }
+
+  .bg-basic {
+    @apply bg-white dark:bg-black;
+  }
+  .bg-paper {
+    @apply bg-paper-light dark:bg-paper-dark;
+  }
+  .bg-contrast {
+    @apply bg-paper-dark dark:bg-paper-light;
+  }
+  .bg-disabled {
+    @apply bg-disabled-light dark:bg-disabled-dark;
+  }
+  .bg-modal {
+    @apply bg-modal-light dark:bg-modal-dark;
+  }
+  .bg-modal-background {
+    @apply bg-modal-background-light dark:bg-modal-background-dark;
+  }
+
+  .text-basic {
+    @apply text-black dark:text-white;
+  }
+  .text-placeholder {
+    @apply text-placeholder-light dark:text-placeholder-dark;
+  }
+  .text-disabled {
+    @apply text-disabled-light dark:text-disabled-dark;
+  }
+  .text-validation {
+    @apply text-validation-light dark:text-validation-dark;
+  }
+  .text-contrast {
+    @apply text-contrast-light dark:text-contrast-dark;
+  }
+  .text-success {
+    @apply text-success-light dark:text-success-dark;
+  }
+
+  .role-primary {
+    @apply bg-primary-light dark:bg-primary-dark;
+  }
+
+  .h1 {
+    @apply text-h1 font-bold text-black dark:text-white;
+  }
+  .h2 {
+    @apply text-h2 font-bold text-black dark:text-white;
+  }
+  .h3 {
+    @apply text-h3 font-bold text-black dark:text-white;
+  }
+  .h4 {
+    @apply text-h4 font-bold text-black dark:text-white;
+  }
+
+  .body1 {
+    @apply text-body1 text-black dark:text-white;
+  }
+  .body2 {
+    @apply text-body2 text-black dark:text-white;
+  }
+  .body3 {
+    @apply text-body3 text-black dark:text-white;
+  }
+  .body4 {
+    @apply text-body4 text-black dark:text-white;
+  }
+}
