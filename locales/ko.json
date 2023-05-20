@@ -1,8 +1,7 @@
 {
   "nav": {
-    "title": "Prisma Nextjs RSC",
-    "users": "사용자",
-    "posts": "포스트",
+    "title": "일타강사 이지영 AI",
+    "chat": "채팅",
     "signIn": "로그인",
     "signOut": "로그아웃",
     "github": "깃허브"
@@ -12,6 +11,8 @@
     "ko": "한국어"
   },
   "common": {
+    "leejiyoung": "이지영",
+    "me": "나",
     "notAuthorized": "인증되지 않음",
     "notFound": "찾을 수 없음",
     "badRequest": "잘못된 요청",
@@ -22,16 +23,7 @@
   "index": {
     "worksNormally": "정상 작동"
   },
-  "home": {
-    "title": "홈"
-  },
-  "signIn": {
-    "signIn": "로그인"
-  },
-  "users": {
-    "title": "유저"
-  },
-  "posts": {
-    "title": "포스트"
+  "chat": {
+    "title": "채팅"
   }
 }

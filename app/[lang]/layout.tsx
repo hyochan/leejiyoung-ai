@@ -4,6 +4,7 @@ import '../../styles/output.css';
 import type {ReactElement, ReactNode} from 'react';
 
 import RootProvider from '../../src/components/RootProvider';
+import {getTranslates} from '../../src/localization';
 
 import type {Locale} from '~/i18n';
 
@@ -18,9 +19,13 @@ export default async function RootLayout(props: Props): Promise<ReactElement> {
     children,
   } = props;
 
+  const {
+    nav: {title},
+  } = await getTranslates(lang);
+
   return (
     <html lang={lang} className="dark">
-      <title>NextJS Template</title>
+      <title>{title}</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="All stats for developers" />
       <link rel="icon" href="/favicon.ico" />

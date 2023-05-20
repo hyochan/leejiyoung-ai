@@ -1,4 +1,4 @@
-# Prisma NextJS RSC
+# 일타강사 이지영 AI
 
 > Project is built mainly with `nextjs`, `react server component` and `prisma`.
 

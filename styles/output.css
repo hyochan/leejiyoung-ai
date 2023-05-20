@@ -804,26 +804,6 @@ input[type='search']::-webkit-search-decoration,
   background-color: rgb(15 20 25 / var(--tw-bg-opacity));
 }
 
-.bg-modal {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-:is(.dark .bg-modal) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 20 25 / var(--tw-bg-opacity));
-}
-
-.bg-modal-background {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 242 245 / var(--tw-bg-opacity));
-}
-
-:is(.dark .bg-modal-background) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .text-basic {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -925,10 +905,6 @@ input[type='search']::-webkit-search-decoration,
   margin-right: 6px;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -977,10 +953,6 @@ input[type='search']::-webkit-search-decoration,
   height: 3.5rem;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
 .h-5 {
   height: 1.25rem;
 }
@@ -1016,10 +988,6 @@ input[type='search']::-webkit-search-decoration,
 
 .w-full {
   width: 100%;
-}
-
-.max-w-\[480px\] {
-  max-width: 480px;
 }
 
 .flex-1 {
@@ -1096,10 +1064,6 @@ input[type='search']::-webkit-search-decoration,
   align-self: stretch;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1108,10 +1072,6 @@ input[type='search']::-webkit-search-decoration,
 
 .text-ellipsis {
   text-overflow: ellipsis;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .rounded-\[4px\] {
@@ -1221,11 +1181,6 @@ input[type='search']::-webkit-search-decoration,
   padding-right: 0.25rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1244,11 +1199,6 @@ input[type='search']::-webkit-search-decoration,
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .py-2 {
@@ -1482,11 +1432,6 @@ input[type='search']::-webkit-search-decoration,
 @media not all and (min-width: 768px) {
   .max-md\:w-12 {
     width: 3rem;
-  }
-
-  .max-md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 }
 

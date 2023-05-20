@@ -1,8 +1,7 @@
 {
   "nav": {
-    "title": "Prisma Nextjs RSC",
-    "users": "Users",
-    "posts": "Posts",
+    "title": "Hit Instructor Lee Jiyoung",
+    "chat": "Chat",
     "signIn": "Sign in",
     "signOut": "Sign out",
     "github": "Github"
@@ -12,6 +11,8 @@
     "ko": "Korean"
   },
   "common": {
+    "leejiyoung": "Lee Jiyoung",
+    "me": "Me",
     "notAuthorized": "Not authorized",
     "notFound": "Not found",
     "badRequest": "Bad request",
@@ -22,16 +23,7 @@
   "index": {
     "worksNormally": "Works normally"
   },
-  "home": {
-    "title": "Home"
-  },
-  "signIn": {
-    "signIn": "Sign in"
-  },
-  "users": {
-    "title": "Users"
-  },
-  "posts": {
-    "title": "Posts"
+  "chat": {
+    "title": "Chat"
   }
 }
